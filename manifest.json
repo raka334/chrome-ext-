@@ -1,0 +1,15 @@
+{
+    "name":"Aman",
+    "manifest_version": 3,
+    "version": "1.0.1",
+    "action": {
+        "default_popup": "pop.html"
+    },
+    "content_scripts": [
+        {
+          "matches": ["https://internet.lpu.in/24online/servlet/E24onlineHTTPClient"],
+          "js": ["popup.js"]
+        }
+      ]
+
+}
